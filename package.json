@@ -1,0 +1,21 @@
+{
+  "name": "brook_chat",
+  "version": "1.0.0",
+  "description": "chat with graphQl db",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Iliya Brook <iliyabrook1987@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^7.3.15",
+    "@graphql-tools/load": "^7.5.14",
+    "@graphql-tools/schema": "^8.3.14",
+    "apollo-server": "^3.8.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16"
+  }
+}
